@@ -1,0 +1,7 @@
+<ul>
+  {{#each model as |venue|}}
+    {{#link-to 'venue-result.venue' venue}} {{venue.name}} {{/link-to}}
+  {{/each}}
+</ul>
+
+{{outlet}}
